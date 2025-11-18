@@ -1,48 +1,72 @@
-# Bot Público y Servidor de Soporte!
+# Discord Multipurpose Bot
 
-<a href="https://discord.gg/MBPsvcphGf"><img src="https://discordapp.com/api/guilds/879397504075063297/widget.png?style=banner2"></a>
- 
-¿No quieres o no puedes hostearlo?
-[**Invita la versión oficial del Bot**](https://discord.com/api/oauth2/authorize?client_id=939952555839078401&permissions=8&scope=bot%20applications.commands)
+A fully-featured **Discord bot** with music, economy, moderation, premium features, and setup tools. Designed to provide an all-in-one solution for managing servers, playing music, and engaging users.
 
+---
 
-# ⚠ IMPORTANTE ⚠
-Gracias por usar este código! Porfavor, si tienes dudas, errores o preguntas sobre como se usa, unete al Discord de Soporte!
-<br>💛 Apoya el desarollo [**donándonos**](https://paypal.me/deustouh) 
+## 📋 Features
 
-# Guía de Instalación 🔥
+### ⚙️ Settings Commands
+- `!claim <key>` - Claim a premium key to activate premium features  
+- `!prefix <new_prefix>` - Change bot prefix (Admin only)  
+- `!set-language <lang>` - Set bot language (Admin only)  
 
+### 🔰 Info Commands
+- `!help` - Show all commands and categories with interactive menu  
+- `!ping` - Check bot latency/ping  
+- `!nivel <user>` - Show user level/rank information  
 
-## ✅ Requisitos Mínimos
+### 💸 Economy Commands
+- `!balance <user>` - Check wallet and bank balance  
+- `!daily` - Claim daily reward (1200 coins, 24h cooldown)  
+- `!work` - Work for coins (200-1000 coins, 3h cooldown)  
+- `!bet <amount>` - Gamble coins (win or lose)  
+- `!rob <user>` - Steal coins from another user (5min cooldown)  
+- `!deposit <amount>` - Put coins in bank  
+- `!withdraw <amount>` - Take coins from bank  
+- `!leaderboard` - Show richest users  
 
-  * Tener instalado una versión de [nodejs](https://nodejs.org) 16.11.0 o mayor.
-  * Un [cluster de MongoDB](https://www.mongodb.com/es/cloud/atlas/) para la base de datos.
-  * Hostearlo en un VPS o un Raspberry PI, para no tener tu PC encendido 24/7
-  
+### 🎶 Music Commands
+- `!play <song>` - Play music from YouTube/Spotify/SoundCloud  
+- `!queue` - Show current music queue  
+- `!skip` - Skip current song  
+- `!stop` - Stop music and clear queue  
 
-## 🤖 Configuración Básica
+### 🚫 Moderation Commands
+- `!ban <user> <reason>` - Ban a user (Admin/BanMembers)  
+- `!kick <user> <reason>` - Kick a user (Admin/KickMembers)  
+- `!warn <user> <reason>` - Warn a user (Admin)  
+- `!unwarn <user> <warn_id>` - Remove a warning (Admin)  
+- `!warnings <user>` - Show user's warnings  
+- `!sorteos` - Manage giveaways (Admin)  
 
-   1. Introducir el Token del Bot en el archivo `./config/config.json` **NOTA:** *Si usas REPLIT, lo podrá ver todo el mundo!(usa .env entonces)*
-   2. Introducir el Prefijo del Bot en el archivo `./config/config.json`
-   3. Introducir la URL de MongoDB en el archivo `./config/config.json` **NOTA:** *Si usas REPLIT, lo podrá ver todo el mundo!(usa .env entonces)*
-   4. Instala los paquetes del Bot usando `npm i` en la consola.
-   5. Inicia el Bot usando: `node index.js` o `npm start` en la consola.
-     * Si tienes un servidor linux o tienes pm2 instalado, entonces usa: `pm2 start --name Nombre_Bot index.js`
+### 🛡️ Setup Commands
+- `!setup-ranking` - Setup level system (Admin)  
+- `!setup-reactionrole` - Setup reaction roles (Admin)  
+- `!setup-suggestions` - Setup suggestion system (Admin)  
+- `!setup-ticket` - Setup ticket system (Admin)  
 
-## 🎶 Sistema de Música
+### 🌟 Premium Commands
+- `!premium` - Check if you have premium status (Premium only)  
 
-   Si vas a hostear el bot en Linux, deberás de instalar ffmpeg con `sudo apt install ffmpeg`
-   
-   Si vas a hostear el bot en Windows, te recomiendo descargar ffmpeg de la [página oficial de descarga](https://ffmpeg.org/download.html) o puedes instalar ffmpeg-static con `npm i ffmpeg-static`
+### 👑 Owner Commands (Bot Owner Only)
+- `!eval <code>` - Execute JavaScript code  
+- `!keygen <duration>` - Generate premium keys (e.g., `!keygen 30d`)  
 
-## 💛 APÓYANOS
+---
 
-> Puedes apoyarme invitando a uno de **nuestros Bots**
+## 🎯 Key Features
+- **Economy System** - Earn, save, gamble, and steal coins  
+- **Music Player** - Full music bot with queue management  
+- **Moderation Tools** - Ban, kick, warn system  
+- **Premium System** - Key-based premium features  
+- **Setup Commands** - Configure bot features per server  
+- **Multi-language** - English support with language switching  
 
-[![Niby 2.0 | El Más Completo Todo-En-Uno](https://cdn.discordapp.com/avatars/919695409813815367/73ae978048bf4ea3c751638372d92a1f.webp?size=256)](https://discord.com/api/oauth2/authorize?client_id=919695409813815367&permissions=8&scope=bot%20applications.commands)
-[![Nythm | La mejor calidad de música](https://cdn.discordapp.com/avatars/890233523464700014/1a81e677c1883e5806c7cac56694b132.webp?size=256)](https://discord.com/api/oauth2/authorize?client_id=890233523464700014&permissions=8&scope=bot%20applications.commands)
-[![Super Tickets | Tickets Avanzados y Completos](https://cdn.discordapp.com/avatars/901877569866051636/5500087dc7d4819f725e5d59aabf3f4c.webp?size=256)](https://discord.com/api/oauth2/authorize?client_id=901877569866051636&permissions=8&scope=bot%20applications.commands)
+---
 
-# Creditos
+## 🚀 Getting Started
 
-> Si vas a usar este bot, asegúrate de darme créditos!
+1. Clone this repository:  
+```bash
+git clone <your-repo-link>
