@@ -69,4 +69,4 @@ A fully-featured **Discord bot** with music, economy, moderation, premium featur
 
 1. Clone this repository:  
 ```bash
-git clone <your-repo-link>
+https://github.com/awaiq310/MULTIPURPOSE-DISCORD-BOT>
