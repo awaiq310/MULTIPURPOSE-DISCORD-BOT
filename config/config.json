@@ -1,7 +1,8 @@
 {
-    "token": "MTQzOTQ5ODk1Nzk0NzY3MDUzOA.Gjk7Jb.RvBWCHTR1AYLh-UH64sSKhDTZvy91m7tXQ621s",
+    "token": "bot_token",
     "prefix": "!",
-    "mongodb": "mongodb+srv://awaishanif310_db_user:XVzNWQhFo30qJBXA@cluster0.hjh4cnl.mongodb.net/botdb?retryWrites=true&w=majority",
+    "mongodb": "mogodb_url",
     "ownerIDS": ["1348633959436783626"],
     "color": "#ff0000"
 }
+
