@@ -47,7 +47,9 @@ Copy code
 ## ⚙️ Installation
 
 1. Clone the repository:
-[![Clone or Download](https://img.shields.io/badge/Clone%20or%20Download-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/awaiq310/MULTIPURPOSE-DISCORD-BOT/archive/refs/heads/main.zip)
+
+[![Clone or Download](https://img.shields.io/badge/Clone%20or%20Download-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/awaiq310/MULTIPURPOSE-DISCORD-BOT/archive/refs/heads/main.zip) 
+
 
 Install dependencies:
 
